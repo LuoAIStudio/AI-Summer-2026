@@ -1,0 +1,11 @@
+#一下为数据的类型
+a=5.5
+print(type(a))#type是一个函数，可以用来查看变量的类型
+b=3
+print(type(b))
+print(type(True))#True是布尔类型
+#True和False是布尔类型的两个值，Ture也可以是1，则False可以是0
+print(type(1+1j))#j是虚数单位i，是coplex类型
+name="小杰"
+print((name))#name是字符串类型
+print(type(name))#字符串类型
