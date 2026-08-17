@@ -1,0 +1,30 @@
+name=["小杰","王五","小姐","李华"]
+name.pop(2)#用pop的指令可以固定删掉哪个
+print(name)
+name.clear()
+#删除全部元素
+print(name)
+name1=["小明","张三","李四","小明"]
+#del name1#直接在内存中删除，与clear的最大区别
+length=len(name1)
+print("name1的长度是:%d"%length)
+#可以用len查看列表中的个数
+count=name1.count("小明")
+print("小明出现的次数是:%d"%count)
+#count可以查看列表中一个元素的出现的次数
+name1.remove("小明")
+#删去第一次出现的数据
+name1.sort()#按照字母排列
+print(name1)
+num=[3,6,1,8,5]
+num.sort(reverse=True)#这是降序排列
+print(num)
+num1=[4,3,2,7,6,9]
+num1.reverse()#不要忘记加括号了，括号代表了调用
+print(num1)
+#函数是可以直接调用的，而方法则需要面对对象（比如数列）
+#以下学习循环遍历（for）
+for my_name in name1:#in后面是定义变量
+    print("我的名字是：%s"%my_name)
+#依次的在列表中取出数据，并储存在my_name中，最后执行代码
+#列表还可以存储不同的数据
