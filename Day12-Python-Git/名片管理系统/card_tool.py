@@ -1,4 +1,4 @@
-#显示菜单
+﻿#显示菜单
 card_list=[]#用来保存数据的总列表
 
 def show_menu():
@@ -47,7 +47,7 @@ def show_car():
                                         card_dict["num"]))#只显示字典的值，不显示key
         
 #以下是搜索并修改名片
-import card_tool
+
 def index_car():
     print("-"*50)
     print("查看并修改文件")
@@ -67,7 +67,7 @@ def index_car():
             print("是否要修改名片")
             creat=input("请输入你的选择:")
             if creat=="是":
-                card_tool.deal_card(card_dict)
+                deal_card(card_dict)
             elif creat=="否":
                 break
             else:
